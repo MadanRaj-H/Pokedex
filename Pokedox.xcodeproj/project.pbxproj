@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		81D5E471997A32B1FA71FAB0 /* Pods_Pokedox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139721BB90228F403F1C57ED /* Pods_Pokedox.framework */; };
+		C842658E1E3DB829000A1906 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C842658D1E3DB829000A1906 /* Constants.swift */; };
 		C8F93E3F1E3C904D003BB16E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F93E3E1E3C904D003BB16E /* AppDelegate.swift */; };
 		C8F93E411E3C904D003BB16E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F93E401E3C904D003BB16E /* ViewController.swift */; };
 		C8F93E441E3C904D003BB16E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F93E421E3C904D003BB16E /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		055EF84F793197042B80B012 /* Pods-Pokedox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedox/Pods-Pokedox.debug.xcconfig"; sourceTree = "<group>"; };
 		139721BB90228F403F1C57ED /* Pods_Pokedox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3436F4B939A679A292F07E3A /* Pods-Pokedox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedox/Pods-Pokedox.release.xcconfig"; sourceTree = "<group>"; };
+		C842658D1E3DB829000A1906 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C8F93E3B1E3C904D003BB16E /* Pokedox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F93E3E1E3C904D003BB16E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8F93E401E3C904D003BB16E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				C8F93E741E3CA71A003BB16E /* csv.swift */,
+				C842658D1E3DB829000A1906 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				C8F93E731E3C9C49003BB16E /* PokemonCell.swift in Sources */,
 				C8F93E3F1E3C904D003BB16E /* AppDelegate.swift in Sources */,
 				C8F93E701E3C95F3003BB16E /* Pokemon.swift in Sources */,
+				C842658E1E3DB829000A1906 /* Constants.swift in Sources */,
 				C8F93E751E3CA71A003BB16E /* csv.swift in Sources */,
 				C8F93E801E3CBEA6003BB16E /* PokemonDetailViewController.swift in Sources */,
 			);
@@ -663,6 +667,7 @@
 				C8F93E651E3C904D003BB16E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8F93E661E3C904D003BB16E /* Build configuration list for PBXNativeTarget "PokedoxTests" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +676,7 @@
 				C8F93E681E3C904D003BB16E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8F93E691E3C904D003BB16E /* Build configuration list for PBXNativeTarget "PokedoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -679,6 +685,7 @@
 				C8F93E6B1E3C904D003BB16E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
