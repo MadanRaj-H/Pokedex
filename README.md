@@ -18,7 +18,7 @@ The app lists all different types of POKEMON which includes Pokemon's
   
   REST API - https://pokeapi.co/api/v1/pokemon/1/
   
-  <B> <h3>Networking calls have been made via Alamofire. To install Alamofire first u install cocoapods</h3> </B>
+  <B> <h4>Networking calls have been made via Alamofire. To install Alamofire first u install cocoapods</h4> </B>
 
   1) sudo gem install cocoapods
   
@@ -32,13 +32,13 @@ The app lists all different types of POKEMON which includes Pokemon's
       platform :ios, '10.0' <br>
       use_frameworks! <br>
 
-      target '<Your Target Name>' do <br>
-        pod 'Alamofire', '~> 4.3' <br> 
-      end <br> 
+      target '<Your Target Name>' do
+        pod 'Alamofire', '~> 4.3'  
+      end  
    
-   <B><h3> UI Layout Implementation: > </h3> <B>
+   <B><h4> UI Layout Implementation: > </h4> <B>
     
-     *) UICollectionView for dynamically populating pokemons
+     *) UICollectionView for dynamically populating pokemons <br>
      *) UIStackView for easy layout
      
     
