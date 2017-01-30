@@ -16,3 +16,23 @@ The app lists all different types of POKEMON which includes Pokemon's
  <img src="https://cloud.githubusercontent.com/assets/15614313/22422174/1254e000-e711-11e6-97f3-ddb75f4ebc15.png" width="240">
  <br>
   
+  
+  Networking calls have been made via Alamofire. To install Alamofire first u install cocoapods
+
+  1) sudo gem install cocoapods
+  
+  Go to your working deirectory and initialize pod
+  
+  2) pod init
+  
+  Open your pod file and do the pod configuration
+  
+  3) source 'https://github.com/CocoaPods/Specs.git'
+     platform :ios, '10.0'
+     use_frameworks!
+
+     target '<Your Target Name>' do
+       pod 'Alamofire', '~> 4.3'
+     end
+    
+  
