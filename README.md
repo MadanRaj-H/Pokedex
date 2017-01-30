@@ -27,12 +27,14 @@ The app lists all different types of POKEMON which includes Pokemon's
   
   Open your pod file and do the pod configuration
   
-  3) source 'https://github.com/CocoaPods/Specs.git'
-     platform :ios, '10.0'
-     use_frameworks!
+  3) source 'https://github.com/CocoaPods/Specs.git' <br>
+     platform :ios, '10.0' <br>
+     use_frameworks! <br>
 
-     target '<Your Target Name>' do
-       pod 'Alamofire', '~> 4.3'
-     end
+     target '<Your Target Name>' do <br>
+       pod 'Alamofire', '~> 4.3' <br> 
+     end <br> 
+     
+  
     
   
